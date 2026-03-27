@@ -1,0 +1,42 @@
+aid: restfox
+name: Restfox
+description: >-
+  Restfox is a lightweight, offline-first web HTTP client for testing REST APIs, similar to Postman but browser-based.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+      - Clients
+      - GUI
+      - HTTP Client
+      - Browser
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/apis.yml
+created: '2026-03-27'
+modified: '2026-03-27'
+specificationVersion: '0.19'
+apis:
+  - aid: restfox:restfox
+    name: Restfox
+    description: >-
+      Restfox is a lightweight, offline-first web HTTP client for testing REST APIs, similar to Postman but browser-based.
+    humanURL: https://restfox.dev
+    tags:
+        - Clients
+        - GUI
+        - HTTP Client
+        - Browser
+    properties:
+      - type: Documentation
+        url: https://github.com/flawiddsern/Restfox#readme
+      - type: Getting Started
+        url: https://restfox.dev
+common:
+  - type: Website
+    url: https://restfox.dev
+  - type: Documentation
+    url: https://github.com/flawiddsern/Restfox#readme
+  - type: GitHub Organization
+    url: https://github.com/flawiddsern/Restfox
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
