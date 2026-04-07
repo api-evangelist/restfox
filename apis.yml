@@ -5,10 +5,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-      - Clients
-      - GUI
-      - HTTP Client
-      - Browser
+  - Browser
+  - Clients
+  - GUI
+  - HTTP Client
 url: >-
   https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/apis.yml
 created: '2026-03-27'
@@ -21,10 +21,10 @@ apis:
       Restfox is a lightweight, offline-first web HTTP client for testing REST APIs, similar to Postman but browser-based.
     humanURL: https://restfox.dev
     tags:
-        - Clients
-        - GUI
-        - HTTP Client
-        - Browser
+      - Browser
+      - Clients
+      - GUI
+      - HTTP Client
     properties:
       - type: Documentation
         url: https://github.com/flawiddsern/Restfox#readme
