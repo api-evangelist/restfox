@@ -1,0 +1,48 @@
+{
+  "name": "Collection",
+  "description": "Structure documentation for a Restfox API test collection",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string",
+      "required": false,
+      "description": "Unique collection identifier"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "required": true,
+      "description": "Collection display name"
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "required": false,
+      "description": "Collection description"
+    },
+    {
+      "name": "requests",
+      "type": "array<Request>",
+      "required": false,
+      "description": "HTTP requests in this collection"
+    },
+    {
+      "name": "environments",
+      "type": "array<Environment>",
+      "required": false,
+      "description": "Environment variable sets"
+    },
+    {
+      "name": "createdAt",
+      "type": "string (date-time)",
+      "required": false,
+      "description": "Creation timestamp"
+    },
+    {
+      "name": "updatedAt",
+      "type": "string (date-time)",
+      "required": false,
+      "description": "Last update timestamp"
+    }
+  ]
+}

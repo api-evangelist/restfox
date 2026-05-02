@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "restfox": "https://restfox.dev/vocab#",
+    "Collection": "restfox:Collection",
+    "Request": "restfox:Request",
+    "Environment": "restfox:Environment",
+    "Plugin": "restfox:Plugin",
+    "ResponseHistory": "restfox:ResponseHistory",
+    "collectionId": "restfox:collectionId",
+    "requestMethod": "restfox:requestMethod",
+    "requestUrl": "restfox:requestUrl",
+    "requestHeaders": "restfox:requestHeaders",
+    "requestBody": "restfox:requestBody",
+    "environmentVariables": "restfox:environmentVariables",
+    "offlineFirst": "restfox:offlineFirst",
+    "WebApplication": "schema:WebApplication",
+    "SoftwareApplication": "schema:SoftwareApplication",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "applicationCategory": "schema:applicationCategory",
+    "operatingSystem": "schema:operatingSystem",
+    "softwareVersion": "schema:softwareVersion",
+    "license": "schema:license",
+    "codeRepository": "schema:codeRepository",
+    "programmingLanguage": "schema:programmingLanguage",
+    "Organization": "schema:Organization",
+    "dateCreated": "schema:dateCreated",
+    "dateModified": "schema:dateModified"
+  }
+}

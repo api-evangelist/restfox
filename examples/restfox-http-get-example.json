@@ -1,0 +1,30 @@
+{
+  "description": "Example of a GET request in Restfox for retrieving a REST API resource",
+  "collection": "My API Collection",
+  "request": {
+    "name": "Get User by ID",
+    "method": "GET",
+    "url": "{{baseUrl}}/users/{{userId}}",
+    "headers": [
+      {"name": "Authorization", "value": "Bearer {{accessToken}}", "enabled": true},
+      {"name": "Accept", "value": "application/json", "enabled": true}
+    ],
+    "environment": {
+      "baseUrl": "https://api.example.com",
+      "userId": "usr_12345",
+      "accessToken": "my-bearer-token"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "id": "usr_12345",
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "createdAt": "2026-01-15T09:00:00Z"
+    }
+  }
+}

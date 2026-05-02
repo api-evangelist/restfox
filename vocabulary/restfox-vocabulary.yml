@@ -1,0 +1,66 @@
+vocabulary:
+  name: Restfox Vocabulary
+  description: Domain vocabulary for the Restfox offline-first HTTP client
+  version: 1.0.0
+  created: '2026-05-02'
+  modified: '2026-05-02'
+  tags:
+    - API Testing
+    - HTTP Client
+    - Open Source
+
+terms:
+  - term: Collection
+    definition: A named group of HTTP requests organized for a specific API or project. Collections help structure test suites and can be shared across teams.
+    category: Core Concept
+    relatedTerms:
+      - Request
+      - Environment
+
+  - term: Request
+    definition: An individual HTTP request configuration including method, URL, headers, and body. Requests support environment variable placeholders.
+    category: Core Concept
+    relatedTerms:
+      - Collection
+      - Environment Variable
+
+  - term: Environment
+    definition: A named set of key-value variable pairs used for parameterizing requests across different deployment targets (development, staging, production).
+    category: Configuration
+    relatedTerms:
+      - Environment Variable
+      - Request
+
+  - term: Environment Variable
+    definition: A named placeholder (e.g., {{baseUrl}}) used in request URLs, headers, and bodies that gets substituted with environment-specific values at runtime.
+    category: Configuration
+    relatedTerms:
+      - Environment
+
+  - term: Offline-First
+    definition: Restfox's design principle ensuring all collections, requests, and history remain accessible without internet connectivity by storing data locally in the browser or desktop app.
+    category: Architecture
+
+  - term: Plugin
+    definition: An extension mechanism allowing Restfox to intercept and modify requests and responses, enabling custom authentication, scripting, and middleware.
+    category: Extensibility
+
+  - term: Response History
+    definition: A log of past request executions with their responses, allowing developers to review and compare API behavior over time.
+    category: Feature
+
+  - term: GraphQL
+    definition: Query language and API paradigm supported by Restfox alongside HTTP/REST and WebSocket for comprehensive API testing.
+    category: Protocol
+
+  - term: WebSocket
+    definition: Full-duplex communication protocol supported by Restfox for testing real-time APIs and streaming connections.
+    category: Protocol
+
+  - term: Docker
+    definition: Container platform used to deploy the Restfox server as a standalone Docker container for team use.
+    category: Deployment
+
+  - term: Progressive Web App
+    definition: Restfox's web deployment mode enabling installation as a PWA on any modern browser without a native installer.
+    category: Deployment

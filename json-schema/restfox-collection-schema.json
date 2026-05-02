@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/json-schema/restfox-collection-schema.json",
+  "title": "Restfox Collection",
+  "description": "Represents a Restfox API collection containing organized HTTP requests, environment variables, and test configurations for API testing.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the collection."
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name for the collection."
+    },
+    "description": {
+      "type": "string",
+      "description": "Optional description of the collection's purpose."
+    },
+    "requests": {
+      "type": "array",
+      "description": "List of HTTP requests in the collection.",
+      "items": {
+        "$ref": "#/$defs/Request"
+      }
+    },
+    "environments": {
+      "type": "array",
+      "description": "Environment configurations for variable substitution.",
+      "items": {
+        "$ref": "#/$defs/Environment"
+      }
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+  "required": ["name"],
+  "$defs": {
+    "Request": {
+      "type": "object",
+      "description": "An individual HTTP request in a Restfox collection.",
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string", "description": "Request name displayed in the UI."},
+        "method": {
+          "type": "string",
+          "description": "HTTP method.",
+          "enum": ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS", "TRACE"]
+        },
+        "url": {"type": "string", "description": "Request URL, may include environment variable placeholders."},
+        "headers": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/Header"}
+        },
+        "body": {
+          "type": "object",
+          "description": "Request body configuration.",
+          "properties": {
+            "contentType": {"type": "string"},
+            "body": {"type": "string"}
+          }
+        },
+        "description": {"type": "string"},
+        "parentId": {"type": ["string", "null"], "description": "Parent folder ID for nested organization."}
+      },
+      "required": ["method", "url"]
+    },
+    "Header": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "value": {"type": "string"},
+        "enabled": {"type": "boolean", "default": true}
+      },
+      "required": ["name", "value"]
+    },
+    "Environment": {
+      "type": "object",
+      "description": "A named set of variables for request parameterization.",
+      "properties": {
+        "id": {"type": "string"},
+        "name": {"type": "string"},
+        "variables": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "key": {"type": "string"},
+              "value": {"type": "string"},
+              "enabled": {"type": "boolean", "default": true}
+            },
+            "required": ["key", "value"]
+          }
+        }
+      },
+      "required": ["name"]
+    }
+  }
+}

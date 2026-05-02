@@ -1,0 +1,27 @@
+{
+  "description": "Example of a WebSocket connection in Restfox for real-time communication testing",
+  "collection": "WebSocket Tests",
+  "request": {
+    "name": "Real-time Order Updates",
+    "type": "websocket",
+    "url": "wss://{{wsHost}}/v1/orders/{{orderId}}/stream",
+    "headers": [
+      {"name": "Authorization", "value": "Bearer {{accessToken}}", "enabled": true}
+    ],
+    "environment": {
+      "wsHost": "ws.example.com",
+      "orderId": "order_9876",
+      "accessToken": "my-bearer-token"
+    }
+  },
+  "messages": [
+    {
+      "direction": "sent",
+      "payload": "{\"type\": \"subscribe\", \"channel\": \"order-updates\"}"
+    },
+    {
+      "direction": "received",
+      "payload": "{\"type\": \"order-update\", \"orderId\": \"order_9876\", \"status\": \"shipped\", \"timestamp\": \"2026-05-02T10:30:00Z\"}"
+    }
+  ]
+}
