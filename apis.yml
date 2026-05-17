@@ -47,9 +47,9 @@ apis:
         url: https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/vocabulary/restfox-vocabulary.yml
       - type: Documentation
         url: https://docs.restfox.dev/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://restfox.dev/
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/flawiddsouza/Restfox
       - type: Docker
         url: https://hub.docker.com/r/flawiddsouza/restfox
@@ -58,7 +58,7 @@ common:
     url: https://restfox.dev/
   - type: Documentation
     url: https://docs.restfox.dev/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/flawiddsouza/Restfox
   - type: Docker
     url: https://hub.docker.com/r/flawiddsouza/restfox
