@@ -9,6 +9,30 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+- API Testing
+- HTTP Client
+- Browser
+- Desktop
+- Open Source
+- GraphQL
+- WebSocket
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/apis.yml
+created: '2026-03-27'
+modified: '2026-05-02'
+specificationVersion: '0.19'
+apis:
+- aid: restfox:restfox
+  name: Restfox
+  description: >-
+    Restfox is a lightweight, offline-first web HTTP client for testing REST
+    APIs, similar to Postman but browser-based. It supports HTTP, WebSocket,
+    and GraphQL protocols, with features including environment variables,
+    response history, and an extensible plugin system. Available as a web app,
+    desktop application for macOS, Windows, and Linux, and as a Docker
+    container.
+  humanURL: https://restfox.dev/
+  tags:
   - API Testing
   - HTTP Client
   - Browser
@@ -16,54 +40,32 @@ tags:
   - Open Source
   - GraphQL
   - WebSocket
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/apis.yml
-created: '2026-03-27'
-modified: '2026-05-02'
-specificationVersion: '0.19'
-apis:
-  - aid: restfox:restfox
-    name: Restfox
-    description: >-
-      Restfox is a lightweight, offline-first web HTTP client for testing REST
-      APIs, similar to Postman but browser-based. It supports HTTP, WebSocket,
-      and GraphQL protocols, with features including environment variables,
-      response history, and an extensible plugin system. Available as a web app,
-      desktop application for macOS, Windows, and Linux, and as a Docker
-      container.
-    humanURL: https://restfox.dev/
-    tags:
-      - API Testing
-      - HTTP Client
-      - Browser
-      - Desktop
-      - Open Source
-      - GraphQL
-      - WebSocket
-    properties:
-      - type: JSONSchema
-        url: https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/json-schema/restfox-collection-schema.json
-      - type: Vocabulary
-        url: https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/vocabulary/restfox-vocabulary.yml
-      - type: Documentation
-        url: https://docs.restfox.dev/
-      - type: GettingStarted
-        url: https://restfox.dev/
-      - type: GitHubRepository
-        url: https://github.com/flawiddsouza/Restfox
-      - type: Docker
-        url: https://hub.docker.com/r/flawiddsouza/restfox
-common:
-  - type: Website
-    url: https://restfox.dev/
+  properties:
+  - type: JSONSchema
+    url: https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/json-schema/restfox-collection-schema.json
+  - type: Vocabulary
+    url: https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/vocabulary/restfox-vocabulary.yml
   - type: Documentation
     url: https://docs.restfox.dev/
-  - type: GitHubOrganization
+  - type: GettingStarted
+    url: https://restfox.dev/
+  - type: GitHubRepository
     url: https://github.com/flawiddsouza/Restfox
   - type: Docker
     url: https://hub.docker.com/r/flawiddsouza/restfox
-  - type: Releases
-    url: https://github.com/flawiddsouza/Restfox/releases
+  - url: graphql/restfox-graphql.md
+    type: GraphQL
+common:
+- type: Website
+  url: https://restfox.dev/
+- type: Documentation
+  url: https://docs.restfox.dev/
+- type: GitHubOrganization
+  url: https://github.com/flawiddsouza/Restfox
+- type: Docker
+  url: https://hub.docker.com/r/flawiddsouza/restfox
+- type: Releases
+  url: https://github.com/flawiddsouza/Restfox/releases
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
