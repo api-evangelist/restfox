@@ -64,7 +64,7 @@ common:
   url: https://github.com/flawiddsouza/Restfox
 - type: Docker
   url: https://hub.docker.com/r/flawiddsouza/restfox
-- type: Releases
+- type: ReleaseNotes
   url: https://github.com/flawiddsouza/Restfox/releases
 maintainers:
 - FN: Kin Lane
