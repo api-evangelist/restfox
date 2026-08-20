@@ -25,6 +25,14 @@ tags:
 - HTTP Client
 - Browser
 - Desktop
+- Open-Source
+- GraphQL
+- WebSocket
+tags_raw:
+- API Testing
+- HTTP Client
+- Browser
+- Desktop
 - Open Source
 - GraphQL
 - WebSocket
@@ -45,6 +53,14 @@ apis:
     container.
   humanURL: https://restfox.dev/
   tags:
+  - API Testing
+  - HTTP Client
+  - Browser
+  - Desktop
+  - Open-Source
+  - GraphQL
+  - WebSocket
+  tags_raw:
   - API Testing
   - HTTP Client
   - Browser
