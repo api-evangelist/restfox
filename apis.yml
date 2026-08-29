@@ -7,6 +7,18 @@ description: >-
   history, a plugin system, and cross-platform deployment as a web app, desktop
   client, or Docker container.
 type: Index
+deliveryModel:
+  model: self-hosted
+  license: MIT
+  open_source: true
+  commercial: false
+  callable_host: false
+  label: Self-hosted open source · you run it yourself
+  confidence: high
+  source:
+  - license
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
@@ -84,6 +96,8 @@ apis:
   - url: graphql/restfox-graphql.md
     type: GraphQL
 common:
+- type: IssueTracker
+  url: https://github.com/flawiddsouza/Restfox/issues
 - type: License
   name: MIT
   url: https://github.com/flawiddsouza/Restfox/blob/main/LICENSE
