@@ -37,7 +37,7 @@ tags:
 - HTTP Client
 - Browser
 - Desktop
-- Open-Source
+- Open Source
 - GraphQL
 - WebSocket
 tags_raw:
@@ -48,6 +48,7 @@ tags_raw:
 - Open Source
 - GraphQL
 - WebSocket
+- Open-Source
 url: >-
   https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/apis.yml
 created: '2026-03-27'
@@ -69,7 +70,7 @@ apis:
   - HTTP Client
   - Browser
   - Desktop
-  - Open-Source
+  - Open Source
   - GraphQL
   - WebSocket
   tags_raw:
@@ -80,6 +81,7 @@ apis:
   - Open Source
   - GraphQL
   - WebSocket
+  - Open-Source
   properties:
   - type: JSONSchema
     url: https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/json-schema/restfox-collection-schema.json
