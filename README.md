@@ -1,4 +1,4 @@
-# Restfox (restfox)
+# Restfox
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,79 +66,144 @@
 
 Restfox is an offline-first, minimalistic HTTP and socket testing client for the web and desktop. It is an open-source alternative to Postman, supporting HTTP/REST, WebSocket, and GraphQL testing with environment variables, response history, a plugin system, and cross-platform deployment as a web app, desktop client, or Docker container.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/restfox/refs/heads/main/apis.yml)
+**Areas:** API Testing · HTTP Client · Browser · Desktop · Open Source · GraphQL · WebSocket
 
-## Scope
+## Restfox on APIs.io
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+Everything profiled for Restfox is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/restfox/](https://apis.io/providers/restfox/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- API Testing
-- HTTP Client
-- Browser
-- Desktop
-- Open Source
-- GraphQL
-- WebSocket
+- [Restfox](https://apis.io/apis/restfox/restfox/) — Restfox is a lightweight, offline-first web HTTP client for testing REST APIs, similar to Postman but browser-based. It supports HTTP, WebSocket, and…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-27
-- **Modified:** 2026-05-02
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### GraphQL (1)
 
-### Restfox
+GraphQL schemas.
 
-Restfox is a lightweight, offline-first web HTTP client for testing REST APIs, similar to Postman but browser-based. It supports HTTP, WebSocket, and GraphQL protocols, with features including environment variables, response history, and an extensible plugin system. Available as a web app, desktop application for macOS, Windows, and Linux, and as a Docker container.
+- [Restfox GraphQL API](https://apis.io/graphqls/restfox/restfox-graphql/)
 
-**Human URL:** [https://restfox.dev/](https://restfox.dev/)
+#### JSON Schema (1)
 
-#### Tags
+The data models the API reads and writes.
 
-- API Testing
-- HTTP Client
-- Browser
-- Desktop
-- Open Source
-- GraphQL
-- WebSocket
+- [Restfox Collection](https://apis.io/schemas/restfox/restfox-collection/)
 
-#### Properties
+#### JSON Structure (1)
 
-| Type | URL |
-|------|-----|
-| JSONSchema | [restfox-collection-schema.json](json-schema/restfox-collection-schema.json) |
-| Vocabulary | [restfox-vocabulary.yml](vocabulary/restfox-vocabulary.yml) |
-| Documentation | [https://docs.restfox.dev/](https://docs.restfox.dev/) |
-| Getting Started | [https://restfox.dev/](https://restfox.dev/) |
-| GitHub Repository | [https://github.com/flawiddsouza/Restfox](https://github.com/flawiddsouza/Restfox) |
-| Docker | [https://hub.docker.com/r/flawiddsouza/restfox](https://hub.docker.com/r/flawiddsouza/restfox) |
+Data models expressed in JSON Structure.
 
-## Artifacts
+- [Restfox Collection Structure](https://apis.io/json-structure/restfox/restfox-collection-structure/)
 
-| Type | File |
-|------|------|
-| JSON Schema (Collection) | [json-schema/restfox-collection-schema.json](json-schema/restfox-collection-schema.json) |
-| JSON Structure (Collection) | [json-structure/restfox-collection-structure.json](json-structure/restfox-collection-structure.json) |
-| JSON-LD Context | [json-ld/restfox-context.jsonld](json-ld/restfox-context.jsonld) |
-| Examples | [examples/](examples/) |
-| Vocabulary | [vocabulary/restfox-vocabulary.yml](vocabulary/restfox-vocabulary.yml) |
+#### JSON-LD (1)
 
-## Common Properties
+Linked-data contexts for the provider's vocabulary.
 
-| Type | URL |
-|------|-----|
-| Website | [https://restfox.dev/](https://restfox.dev/) |
-| Documentation | [https://docs.restfox.dev/](https://docs.restfox.dev/) |
-| GitHub Organization | [https://github.com/flawiddsouza/Restfox](https://github.com/flawiddsouza/Restfox) |
-| Docker | [https://hub.docker.com/r/flawiddsouza/restfox](https://hub.docker.com/r/flawiddsouza/restfox) |
-| Releases | [https://github.com/flawiddsouza/Restfox/releases](https://github.com/flawiddsouza/Restfox/releases) |
+- [Restfox Context](https://apis.io/jsonld/restfox/restfox-context/)
 
-## Maintainers
+#### Vocabulary (1)
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+The provider's domain terms, defined.
+
+- [Restfox Vocabulary](https://apis.io/vocabularies/restfox/restfox-vocabulary/)
+
+#### Examples (2)
+
+Example requests and responses.
+
+- [Restfox Http Get Example](https://apis.io/examples/restfox/restfox-http-get-example/)
+- [Restfox Websocket Example](https://apis.io/examples/restfox/restfox-websocket-example/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Restfox — jsonschema rules](https://apis.io/rules/restfox/restfox-jsonschema-spectral-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Restfox Domain Security](https://apis.io/security/restfox/restfox-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Restfox Plans Pricing](https://apis.io/plans/restfox/restfox-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Restfox Rate Limits](https://apis.io/rate-limits/restfox/restfox-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Restfox Finops](https://apis.io/finops/restfox/restfox-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://restfox.dev/)
+- [Documentation](https://docs.restfox.dev/)
+- [GitHub](https://github.com/flawiddsouza/Restfox)
+
+## API Evangelist rating
+
+**Kin Score 19.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 17.9 |
+| Contract governance | 23.5 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/restfox/](https://apis.io/providers/restfox/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Restfox: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/restfox/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
